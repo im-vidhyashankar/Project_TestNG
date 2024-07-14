@@ -5,24 +5,34 @@
   <artifactId>Wrodpress</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-<dependencies>
-	<dependency> 
-		<groupId>org.codehaus.mojo</groupId>
-		<artifactId>animal-sniffer-annotations</artifactId>
-		<version>1.14</version>
-	</dependency>
-
-<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-<dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>7.10.2</version>
-    <scope>test</scope>
-</dependency>
-
-
-
-
+		<dependencies>
+			<dependency> 
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>animal-sniffer-annotations</artifactId>
+				<version>1.14</version>
+			</dependency>
+		
+			<dependency>
+		    <groupId>org.testng</groupId>
+		    <artifactId>testng</artifactId>
+		    <version>7.10.2</version>
+		    <scope>test</scope>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.seleniumhq.selenium</groupId>
+		    <artifactId>selenium-java</artifactId>
+		    <version>4.21.0</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>io.github.bonigarcia</groupId>
+		    <artifactId>webdrivermanager</artifactId>
+		    <version>5.8.0</version>
+		</dependency>
+	
+	
+	
 
 </dependencies>
 </project>
